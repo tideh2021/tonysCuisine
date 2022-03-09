@@ -5,7 +5,7 @@ if (el.getAttribute('href') === (location.path || 'index.html')) {
         el.classList.add("active");
        }
 }); 
-It gave me error that forEcah((el) => {..}) is not a function. 
+It gave me error that forEach((el) => {..}) is not a function. 
 I then googled the error. Found out that Array.from(lists).forEach((el) {..} is the right way 
 to use it because getElementsByClassName("list") get object (lists).
 */
